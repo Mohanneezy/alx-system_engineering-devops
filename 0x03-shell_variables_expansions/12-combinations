@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z}
+echo -e '\b'{a..z}{a..z} '\n'
