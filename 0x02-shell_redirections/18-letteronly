@@ -1,2 +1,6 @@
 #!/bin/bash
 ls /etc/ssh/sshd_config |grep -v 12
+ls /etc/ssh/sshd_config |grep -v 12
+ls /etc/ssh/sshd_config |grep -v 12
+ls /etc/ssh/sshd_config |grep -v 12
+ls /etc/ssh/sshd_config |grep -v 12
