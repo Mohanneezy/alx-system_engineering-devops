@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la |find . -mindepth 1 -empty -type d 
+ls -la |find . -empty 
