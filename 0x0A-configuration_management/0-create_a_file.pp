@@ -1,6 +1,6 @@
 # Create a file in /tmp
 
-  file { '/tmp/school':
+  file { 'school':
     ensure  => 'present',
     content => "I love puppet\n",
     group   =>'www-data',
