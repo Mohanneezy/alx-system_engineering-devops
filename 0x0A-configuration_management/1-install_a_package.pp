@@ -1,6 +1,6 @@
 # Installs puppet-lint
 
-package { 'Flask@/srv/venv':
+package { 'Flask@':
   ensure   => '2.1.0',
-  source   =>'pip3',
+  provider =>'pip3',
 }
