@@ -2,7 +2,7 @@
 
   file { 'school':
     ensure  => 'present',
-    content => "I love puppet\n",
+    content => 'I love puppet',
     group   =>'www-data',
     owner   =>'www-data',
     mode    => '0744',
