@@ -1,5 +1,4 @@
 # Create a file in /tmp
-class createfile_creator {
 
   file { '/tmp/school':
     ensure  => 'present',
@@ -7,7 +6,5 @@ class createfile_creator {
     group   =>'www-data',
     owner   =>'www-data',
     mode    => '0744',
-    path    => '/tmp/holberton',
+    path    => '/tmp/school',
   }
-
-}
