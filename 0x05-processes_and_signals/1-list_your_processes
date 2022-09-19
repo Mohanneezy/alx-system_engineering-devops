@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# prints processes
+# this script displays a lift of currently running processess
 
-ps u -A -H
+ps -f -aux
